@@ -1,5 +1,5 @@
-from flask import Flask, request
-app = Flask(__name__)
+from app import app
+from flask import request
 
 users = ['nolan', 'annie']
 from funcs import login
